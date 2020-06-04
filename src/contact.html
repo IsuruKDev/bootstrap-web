@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Gamma</title>
+    <title>Contact</title>
   </head>
   <body>
     
@@ -24,13 +24,13 @@
   
         <div class="collapse navbar-collapse" id="navbarPhotoSharing">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li>
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li>
               <a class="nav-link" href="about.html">About</a>
             </li>
-            <li>
+            <li class="nav-item active">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
@@ -39,25 +39,40 @@
    
     </nav>
 
-
-    <div class="jumbotron">
+    <section id="title-bar">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
-            <h1>Capture <span class="em-text">Life</span></h1>
-            <a href="#"><img src="img/icon_app_store.png" alt="" class="app-btn"></a>
-            <a href="#"><img src="img/icon_google_play.png" alt="" class="app-btn"></a>
-          </div>
-          <div class="col-lg-6">
-            <img class="showcase-img" src="img/site_phone.png">
+          <div class="col-lg-12">
+            <h1>Contact Us</h1>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <section id="middle">
+    <section id="contact">
       <div class="container">
         <div class="row">
+          <div class="col-lg-8">
+            <form action="">
+              <div class="form-group">
+                <label for="nametext">Name</label>
+                <input type="text" class="form-control" id="nametext" placeholder="Enter name">
+              </div>
+              <div class="form-group">
+                <label for="companytext">Company Name</label>
+                <input type="text" class="form-control" id="companytext" placeholder="Enter Company name">
+              </div>
+              <div class="form-group">
+                <label for="emailtext">Email</label>
+                <input type="email" class="form-control" id="emailtext" placeholder="Enter Email">
+              </div>
+              <div class="form-group">
+                <label for="msgtext">Message</label>
+                <textarea class="form-control" id="msgtext" placeholder="Enter Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-primary">Submit</button>
+            </form>
+          </div>
           <div class="col-lg-4">
             <img src="img/demo1.jpg" alt="" class="demo">
             <h2>Lorem ipsum</h2>
@@ -65,43 +80,10 @@
               magna aliqua.</p>
               <a href="#" class="btn btn-outline-secondary" role="button">Read More</a>
           </div>
-
-          <div class="col-lg-4">
-            <img src="img/demo2.jpg" alt="" class="demo">
-            <h2>Lorem ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-              magna aliqua.</p>
-              <a href="#" class="btn btn-outline-secondary" role="button">Read More</a>
-          </div>
-
-          <div class="col-lg-4">
-            <img src="img/demo3.jpg" alt="" class="demo">
-            <h2>Lorem ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-              magna aliqua.</p>
-              <a href="#" class="btn btn-outline-secondary" role="button">Read More</a>
-          </div>
         </div>
       </div>
     </section>
-    <section id="feature">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <h1>Gamma Feature</h1>
-              <ul>
-                <li><i class="fa-fa-check" aria-hidden="true">nibh tortor id aliquet lectus</i></li>
-                <li><i class="fa-fa-check" aria-hidden="true">turpis massa tincidunt dui ut</i></li>
-                <li><i class="fa-fa-check" aria-hidden="true">nisi vitae</i></li>
-                <li><i class="fa-fa-check" aria-hidden="true">facilisis volutpat</i></li>
-              </ul>
-          </div>
-          <div class="col-lg-4 offset-lg-2">
-            <img src="img/logo.png" alt="" class="big-logo">
-          </div>
-        </div>
-      </div>
-    </section>
+
 
 
     <footer>
